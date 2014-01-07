@@ -469,11 +469,9 @@ if (typeof PDFJS === 'undefined') {
   // since Firefox/Fennec works as expected.
   var regex = /Android\s[0-2][^\d]/;
   var isOldAndroid = regex.test(navigator.userAgent);
-  document.addEventListener('DOMContentLoaded', function (e) {
-    if (isSafari || isOldAndroid) {
-      PDFJS.disableRange = true;
-    }
-  });
+  if (isSafari || isOldAndroid) {
+    PDFJS.disableRange = true;
+  }
 })();
 
 // Check if the browser supports manipulation of the history.
