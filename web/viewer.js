@@ -1,6 +1,6 @@
 'use strict';
 
-var DEFAULT_URL = '';
+var DEFAULT_URL = '1';
 var DEFAULT_SCALE = 'page-fit';
 var DEFAULT_SCALE_DELTA = 1.1;
 var UNKNOWN_SCALE = 0;
