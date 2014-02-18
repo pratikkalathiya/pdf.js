@@ -1617,3 +1617,283 @@ canvas {
 }
 
 
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+.main-container:after , .page-content{
+  background-color: #f9f9f9;
+}
+
+.navbar-color{ background: #5D25A5; }
+.ace-nav > li { line-height: 69px; height: 69px; }
+.li-right-border { border-right: 1px solid #000000; }
+.user-info { top: 16px; }
+.collection-select-width{width: 300px;}
+.input-box-width{width: 225px;}
+.input-box-width1{width: 280px;}
+.invitation-box-width{width: 405px;}
+
+.login-layout {
+  background-color: #C4E3FF;
+  border-radius:5px;
+}
+.login-layout .widget-box{
+  background-color: #C4E3FF;
+  padding: 5px;
+  border-radius:5px;
+}
+.custom-blue{
+  color: #2BD5FF;
+}
+.login-layout .widget-box .widget-main {
+  padding: 8px 45px 20px;
+  background-color: #FFFFFF;
+}
+.radius{
+  border-radius:3px;
+}
+.login-container {
+  width: 325px;
+  margin: 0 auto;
+}
+
+.text-grey{color:#555555}
+.text-black{color: #000000}
+.light-grey-color{background-color: #f5f5f5}
+.social-button-width{
+  width:70px;
+}
+
+.widget-box-layout .widget-box{
+  background-color:#E6E6E6;
+  padding: 7px;
+  margin-bottom: 17px;
+  padding-top:0px;
+}
+
+.content-layout .widget-box{
+  background-color:#f5f5f5;
+  padding: 7px;
+  margin-bottom: 17px;
+  padding-bottom:0px;
+}
+
+.content-layout-category .widget-box{
+  background-color:#f5f5f5;
+  padding: 3px;
+  margin-bottom: 17px;
+  padding-bottom:0px;
+}
+
+.btn-light-grey {
+  background-color: #f5f5f5 !important;
+  border-color: #f5f5f5;
+}
+.btn-light-grey,
+.btn-light-grey:focus{
+  background-color: #f5f5f5 !important;
+  border-color: #f5f5f5;
+}
+.btn-light-grey:hover ,
+.open .btn-light-grey.dropdown-toggle {
+  background-color: #b2b6bf !important;
+  color: #FFFFFF !important;
+}
+.pdf-style{
+  height: 450px;
+  width: 100%;
+  border-bottom: hidden;
+  border-top: hidden;
+  border-left: hidden;
+  border-right: hidden;
+  background-color: white;
+}
+.padding-10{
+  padding: 10px;
+}
+.pull-right-20{
+  margin-left: 20px;
+}
+.infobox {
+  width: 250px;
+  height: 120px;
+}
+
+.padding-magopoint{ padding: 10px 10px 2px 20px; }
+.padding-magopoint-detail{ padding: 3px 60px; }
+.pull-left-20{ margin-right: 20px; }
+.margin-top-10{ margin-top: -10px; }
+.pull-down-14{ margin-top: 14px; }
+.pull-down-20{ margin-top: 20px; }
+.push-down-14{ margin-bottom: 14px; }
+.push-down-20{ margin-bottom: 20px; }
+
+.text-middle{
+  margin-top:16px;
+  margin-bottom:17px;
+}
+
+.horizontal-center{
+  margin: 0 auto;
+}
+
+.full-width{
+  width: 100%;
+}
+
+.pull-left-21{
+  margin-right: 21px;
+}
+
+.icon-animated-vertical-custom {
+  display: inline-block;
+  -moz-animation: vertical-custom 2.0s  infinite;
+  -webkit-animation: vertical-custom 2.0s infinite;
+  -o-animation: vertical-custom 2.0s infinite;
+  -ms-animation: vertical-custom 2.0s infinite;
+  animation: vertical-custom 2.0s infinite;
+}
+@-moz-keyframes vertical-custom  {
+  0% {
+    -moz-transform: translate(0, -3px);
+  }
+  4% {
+    -moz-transform: translate(0, 3px);
+  }
+  8% {
+    -moz-transform: translate(0, -3px);
+  }
+  12% {
+    -moz-transform: translate(0, 3px);
+  }
+  16% {
+    -moz-transform: translate(0, -3px);
+  }
+  20% {
+    -moz-transform: translate(0, 3px);
+  }
+  22% {
+    -moz-transform: translate(0, 0);
+  }
+}
+@-webkit-keyframes vertical-custom  {
+  0% {
+    -webkit-transform: translate(0, -3px);
+  }
+  4% {
+    -webkit-transform: translate(0, 3px);
+  }
+  8% {
+    -webkit-transform: translate(0, -3px);
+  }
+  12% {
+    -webkit-transform: translate(0, 3px);
+  }
+  16% {
+    -webkit-transform: translate(0, -3px);
+  }
+  20% {
+    -webkit-transform: translate(0, 3px);
+  }
+  22% {
+    -webkit-transform: translate(0, 0);
+  }
+}
+@-ms-keyframes vertical-custom  {
+  0% {
+    -ms-transform: translate(0, -3px);
+  }
+  4% {
+    -ms-transform: translate(0, 3px);
+  }
+  8% {
+    -ms-transform: translate(0, -3px);
+  }
+  12% {
+    -ms-transform: translate(0, 3px);
+  }
+  16% {
+    -ms-transform: translate(0, -3px);
+  }
+  20% {
+    -ms-transform: translate(0, 3px);
+  }
+  22% {
+    -ms-transform: translate(0, 0);
+  }
+}
+@keyframes vertical-custom  {
+  0% {
+    transform: translate(0, -3px);
+  }
+  4% {
+    transform: translate(0, 3px);
+  }
+  8% {
+    transform: translate(0, -3px);
+  }
+  12% {
+    transform: translate(0, 3px);
+  }
+  16% {
+    transform: translate(0, -3px);
+  }
+  20% {
+    transform: translate(0, 3px);
+  }
+  22% {
+    transform: translate(0, 0);
+  }
+}
+
+.sidebar-user-photo {
+  margin: -4px 8px 0 0;
+  border-radius: 100%;
+  border: 2px solid #FFF;
+  width: 30px;
+}
+
+.popup-user-photo {
+  margin: -4px 8px 0 0;
+  border-radius: 100%;
+  border: 2px solid #FFF;
+  width: 60px;
+}
+
+.background-white{
+  background-color: white;
+}
+//for table
+.table-header-color-grey{
+  background-color: #E6E6E6;
+}
+.table-bordered{
+  border: 2px solid rgb(230, 230, 230);
+}
+
+.categories-height{
+  width:150px;
+  height: 190px;
+}
+
+.wishlist-layout .widget-box{
+  background-color: #e6e6e6;
+  padding: 7px 7px;;
+  margin-bottom: 15px;
+  padding-bottom:2px;
+}
+.widget-header-color{
+  background-color: #f9f9f9;
+
+}
+.progress-bar-custom-blue{
+    background-color: #1B91BF;
+}
+.progress-bar-custom-green{
+  background-color: #33CC66;
+}
+
+.error {
+  color: #d16e6c;
+  font-size: 12px;
+}
