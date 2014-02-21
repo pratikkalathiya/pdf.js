@@ -1,7 +1,7 @@
 'use strict';
 
 var DEFAULT_URL = 'steps-2.pdf';
-var DEFAULT_SCALE = 'page-fit';
+var DEFAULT_SCALE = 'auto';
 var DEFAULT_SCALE_DELTA = 1.1;
 var UNKNOWN_SCALE = 0;
 var CACHE_SIZE = 20;
